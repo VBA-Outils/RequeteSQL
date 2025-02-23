@@ -10,4 +10,4 @@
 <p>La première étape est de renseigner toutes les entités qui pourront être restituées (SELECT) ou utilisées comme critères de recherche (clause WHERE).</p>
 <p>Dans l'exemple fourni, les entités "Bouteille" et "Composition" ont été créées.</p>
 <p>L'entité Bouteille est constituée des données suivantes : Restituer Bouteille, Marque, Ville. Pour chaque entité, il est possible de prévoir une donnée "Restituer Entité" qui permettra de restituer la liste des attributs dans le résultat de la requête si la valeur choisie est égale à "Oui". Les autres attributs seront utilisés comme crtières de sélection dans la clause WHERE de la requête.</p>
-
+<p>Créer les domaines de valeurs pour chaque attribut.</p>
