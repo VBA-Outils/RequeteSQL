@@ -19,5 +19,5 @@
 <h1>Créer les squelettes des requêtes et adapter la macro de génération de requêtes</h1>
 <p>Dans l'éditeur VB, modifier le module "GenererRequetes".</p>
 <p>Plusieurs blocs sont présents&nbsp;:</p>
-<li><ul>Préparation des CTE</ul><ul>Préparation du SELECT</ul><ul>Ajout des jointures (FROM)</ul><ul>Ajout des critères (WHERE)</ul><ul>Tri des résultats (ORDER BY)</ul><ul>Limitations des lignes (FETCH FIRST)</ul></li>
+<ul><li>Préparation des CTE</li><li>Préparation du SELECT</li><li>Ajout des jointures (FROM)</li><li>Ajout des critères (WHERE)</li><li>Tri des résultats (ORDER BY)</li><li>Limitations des lignes (FETCH FIRST)</li></ul>
 
