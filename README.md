@@ -18,6 +18,6 @@
 <p>La colonne G vérifie si une erreur est présente en colonne H et incrémente le compteur d'erreur. La formule =SI(Fxx="";1;0 + SI(Hxx<>"";1;0)) doit être utilisée en remplaçant xx par le numéro de ligne</p>
 <h1>Créer les squelettes des requêtes et adapter la macro de génération de requêtes</h1>
 <p>Dans l'éditeur VB, modifier le module "GenererRequetes".</p>
-<p>Plusieurs blocs sont présent&nbsp;:
-<li><ul>Préparation des CTE</ul><ul>Préparation du SELECT</ul><ul>Ajout des jointures (FROM)</ul><ul>Ajout des critères (WHERE)</ul><ul>Tri des résultats (ORDER BY)</ul><ul>Limitations des lignes (FETCH FIRST)</ul></li></p>
+<p>Plusieurs blocs sont présents&nbsp;:</p>
+<li><ul>Préparation des CTE</ul><ul>Préparation du SELECT</ul><ul>Ajout des jointures (FROM)</ul><ul>Ajout des critères (WHERE)</ul><ul>Tri des résultats (ORDER BY)</ul><ul>Limitations des lignes (FETCH FIRST)</ul></li>
 
