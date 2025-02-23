@@ -17,3 +17,4 @@
 <p>La colonne H contient les contrôles qui doivent être réalisés sur les attributs, notamment des dépendances entre attributs. En l'absence de contrôle particulier, la formule =SI(Fxx="";"Absence de données "&Cxx&". Requête impossible à créer.";"") peut être utilisée en remplaçant xx par le numéro de la ligne</p>
 <p>La colonne G vérifie si une erreur est présente en colonne H et incrémente le compteur d'erreur. La formule =SI(Fxx="";1;0 + SI(Hxx<>"";1;0)) doit être utilisée en remplaçant xx par le numéro de ligne</p>
 <h1>Corriger la macro de génération de la requête</h1>
+<p>Dans l'éditeur VB, modifier le module "GenererRequetes".</p>
