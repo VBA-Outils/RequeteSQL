@@ -1,0 +1,1 @@
+Comp.ts_debut <= ${horodatage_saisi} AND ${horodatage_saisi} < Comp.ts_fin

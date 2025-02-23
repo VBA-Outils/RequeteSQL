@@ -1,0 +1,1 @@
+       INNER JOIN ${schema}Composition Comp
