@@ -20,4 +20,5 @@
 <p>Dans l'éditeur VB, modifier le module "GenererRequetes".</p>
 <p>Plusieurs blocs sont présents&nbsp;:</p>
 <ul><li>Préparation des CTE</li><li>Préparation du SELECT</li><li>Ajout des jointures (FROM)</li><li>Ajout des critères (WHERE)</li><li>Tri des résultats (ORDER BY)</li><li>Limitations des lignes (FETCH FIRST)</li></ul>
-
+<p>Ils doivent être complétés en fonction du résultat souhaité en gérant les jointures entre les tables en fonction de leur sélection ou non. Si les attributs d'une entité doivent être restitués ou un attribut est utilisé dans une condition alors l'entité doit être présente dans la requête finale.</p>
+<p>Les horodatages sont insérés en remplaçcant les variables ${horodatage_saisi} des modèles de requêtes par la valeur renseignée par l'utilisateur.</p>
