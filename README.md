@@ -2,6 +2,8 @@
 <p>Le fichier Excel "Requêtes.xlsm" est une base afin de créer un générateur de requête SQL à partir d'informations saisies dans une feuille Excel.</p>
 <p>La feuille de saisie est découpée fonctionnellement par entités (tables) et attributs (colonnes) afin de pouvoir soit restituer des informations de l'entité soit filtrer les résultats selon les critères sélectionnés.</p>
 <p>La feuille de saisie est protégée afin que les utilisateurs ne puissent modifier que les informations nécessaires à la création des requêtes.</p>
+<h1>Initier le projet</h1>
+<p>Télécharger le fichier Requêtes.xlsm et tous les fichiers SQL. Enregistrer les fichiers SQL dans le sous-répertoire "Modèles". Le nom du sous-répertoire peut être renommé, il faut mettre à jour le fichier Excel en modifiant l'onglet "Paramètres". Le paramètre "Dossier des requêtes" contient le nom du sous-répertoire dans lequel sont écrites les requêtes, et peut être modifié après avoir activé le mode développeur en forçant à VRAI la valeur du paramètre "Mode développeur".</p>
 <h1>Remplir le fichier Excel</h1>
 <h2>Activer le mode Développeur</h2>
 <p>Afin de pouvoir modifier le fichier, le mode "Développeur" doit être activé. Aller dans l'onglet "Paramètres", puis modifier le paramètre "Mode développeur" en "Vrai".</p>
