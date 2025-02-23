@@ -16,5 +16,8 @@
 <p>Lorsque tous les domaines de valeurs ont été créés, cliquer sur le bouton "Réactualiser les noms Excel" qui va créer les noms utilisés dans les listes déroulantes, et mettre à jour les colonnes E (création de la liste déroulante) et F (recherche la valeur technique).</p>
 <p>La colonne H contient les contrôles qui doivent être réalisés sur les attributs, notamment des dépendances entre attributs. En l'absence de contrôle particulier, la formule =SI(Fxx="";"Absence de données "&Cxx&". Requête impossible à créer.";"") peut être utilisée en remplaçant xx par le numéro de la ligne</p>
 <p>La colonne G vérifie si une erreur est présente en colonne H et incrémente le compteur d'erreur. La formule =SI(Fxx="";1;0 + SI(Hxx<>"";1;0)) doit être utilisée en remplaçant xx par le numéro de ligne</p>
-<h1>Corriger la macro de génération de la requête</h1>
+<h1>Créer les squelettes des requêtes et adapter la macro de génération de requêtes</h1>
 <p>Dans l'éditeur VB, modifier le module "GenererRequetes".</p>
+<p>Plusieurs blocs sont présent&nbsp;:
+<li><ul>Préparation des CTE</ul><ul>Préparation du SELECT</ul><ul>Ajout des jointures (FROM)</ul><ul>Ajout des critères (WHERE)</ul><ul>Tri des résultats (ORDER BY)</ul><ul>Limitations des lignes (FETCH FIRST)</ul></li></p>
+
